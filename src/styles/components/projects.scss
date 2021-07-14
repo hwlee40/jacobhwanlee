@@ -1,0 +1,130 @@
+//Project Images Section
+.projectscontainer{
+    width: 100%;
+    height: 130vh;
+    position: absolute;
+    z-index: -10;
+    // outline: solid;
+}
+.projectsimage{
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    //Sizing
+    width: 60vw;
+    height: auto;
+    max-width: 1200px; 
+    min-width: 800px;
+}
+.vertical{
+    width: 30vw;
+    height: auto;
+    max-width: 1200px;
+    min-width: 500px;
+}
+.spacer {
+    margin-top: 130vh;
+}
+.spacerdouble {
+    margin-top: 260vh; //INCREMENT spacer triple
+}
+
+//Sticky Text Section
+//Entire Background of Projects Section
+.projectssection{
+    // background: blue;
+    height: 390vh; //INCREMENT +130
+    
+}
+
+.backgroundcontainer {
+    height: 390vh + 60vh; //INCREMENT +130
+    width: 100%;
+    position: absolute;
+    // background: green;
+    margin-top: -60vh;
+}
+.stickycontainer {
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    // background: yellow;
+    
+}
+
+
+.gridcontainer {
+    // background: navy;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px 10px;
+    width: 100%;
+    max-width: 1500px;
+    bottom: 50px;
+    //Center
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.griditemtitle1 {
+    //Grid
+    grid-column-start: 1;
+    grid-column-end: 5;
+    //Font Styling
+    color: $grey;
+    @include poppins17B
+}
+.griditemtitle2 {
+    //Grid
+    grid-column-start: 5;
+    grid-column-end: 7;
+    //Font Styling
+    color: $grey;
+    @include poppins17B
+}
+.griditemdescription1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    //Font Styling
+    color: $grey;
+    @include poppins40L;
+}
+.projecttitle{
+    display: inline-block;
+    color: $blue;
+    font-weight: bold;
+}
+.tagcontainer{
+    margin-top: 10px;
+}
+.tag{
+    @include poppins20M;
+    background: $grey2;
+    display: inline-block;
+    border-radius: 5pt;
+    padding: 0px 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.griditemdescription2 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    //Font Styling
+    color: $grey;
+    @include poppins17R
+}
+.resumetext{
+    margin-top: 10px;
+}
+.griditemdescription3 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    //Font Styling
+    color: $grey;
+    @include poppins17R
+}

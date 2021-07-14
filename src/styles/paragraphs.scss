@@ -1,0 +1,35 @@
+.favorit130L {
+    font-family: Favorit;
+    font-size: 130px;
+    font-weight: 100;
+    line-height: 158px;
+}
+@mixin poppins17B {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: bold;
+}
+@mixin poppins17R {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: regular;
+    line-height: 140%;
+}
+
+@mixin poppins20M {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+@mixin poppins40L {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 130%;
+}

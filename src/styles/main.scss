@@ -1,8 +1,8 @@
 //stles
-@import 'colors.scss', 'fonts.scss', 'paragraphs.scss';
+@import 'colors', 'fonts', 'paragraphs';
 
 //components
-@import 'components/hero.scss', 'components/projects.scss';
+@import 'components/hero', 'components/projects';
 
 *  { 
     margin: 0; 

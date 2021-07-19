@@ -46,7 +46,7 @@ var intervalId = window.setInterval(function(){
     } else if (control === 2) {
         document.getElementById("projecttitle").innerHTML = "Basedoff";
         document.getElementById("projecttitle").style.color = "#007AFF";
-        document.getElementById("projectdescription").innerHTML = "redesigning the research process for future ROKA enlistees.";
+        document.getElementById("projectdescription").innerHTML = "Redesigning the research process for future ROKA enlistees.";
         document.getElementById("tag1").innerHTML = "uiux design";
         document.getElementById("tag2").innerHTML = "3D";
         document.getElementById("tag3").innerHTML = "prototyping";

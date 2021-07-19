@@ -4,13 +4,17 @@
     font-weight: 100;
     line-height: 158px;
 
-    @media (max-width: 1200px) {
+    @media (max-width: $breakpointdesktop) {
         font-size: 90px;
         line-height: 120px;
     }
-    @media (max-width: 830px) {
-        font-size: 50px;
-        line-height: 70px;
+    @media (max-width: $breakpointtablet) {
+        font-size: 70px;
+        line-height: 85px;
+    }
+    @media (max-width: $breakpointmobile) {
+        font-size: 40px;
+        line-height: 50px;
     }
 }
 @mixin poppins17B {

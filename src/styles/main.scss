@@ -1,11 +1,11 @@
 //breakpoints
 @import 'breakpoints';
 
-//stles
-@import 'colors', 'fonts', 'paragraphs';
+//styles
+@import 'colors', 'fonts', 'paragraphs', 'scroll';
 
 //components
-@import 'components/hero', 'components/projects';
+@import 'components/hero', 'components/projects', "components/basedoff", "components/carousel";
 
 *  { 
     margin: 0; 

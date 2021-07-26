@@ -10,13 +10,19 @@
     }
     @media (max-width: $breakpointtablet) {
         font-size: 70px;
-        line-height: 85px;
+        line-height: 90px;
     }
     @media (max-width: $breakpointmobile) {
         font-size: 40px;
-        line-height: 50px;
+        line-height: 55px;
     }
 }
+@mixin poppins13R{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: regular;
+}
+
 @mixin poppins17B {
     font-family: Poppins;
     font-size: 17px;
@@ -26,7 +32,7 @@
     font-family: Poppins;
     font-size: 17px;
     font-weight: regular;
-    line-height: 140%;
+    line-height: 150%;
 }
 
 @mixin poppins20M {
@@ -35,14 +41,33 @@
     font-weight: 400;
 }
 
+@mixin poppins24B {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
-
-
+@mixin poppins30B {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+}
 
 @mixin poppins40L {
     font-family: Poppins;
     font-size: 40px;
     font-weight: 300;
     line-height: 130%;
+}
+@mixin poppins40B {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@mixin poppins200R {
+    font-family: Poppins;
+    font-size: 200px;
+    font-weight: regular;
 }

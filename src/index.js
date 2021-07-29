@@ -37,7 +37,7 @@ var intervalId = window.setInterval(function(){
         document.getElementById("tag1").innerHTML = "uiux design";
         document.getElementById("tag2").innerHTML = "interaction design";
         document.getElementById("tag3").innerHTML = "motion";
-        document.getElementById("griditemdescription1").href="https://antiantinyc.com/";
+        document.getElementById("griditemdescription1").href="./archive.html";
     } else if (control === 1) {
         document.getElementById("projecttitle").innerHTML = "AntiAnti";
         document.getElementById("projecttitle").style.color = "#FF375F";
@@ -45,7 +45,7 @@ var intervalId = window.setInterval(function(){
         document.getElementById("tag1").innerHTML = "internship";
         document.getElementById("tag2").innerHTML = "collaborative";
         document.getElementById("tag3").innerHTML = "graphic design";
-        document.getElementById("griditemdescription1").href="http://www.vergum.com/";
+        document.getElementById("griditemdescription1").href="./antianti.html";
     } else if (control === 2) {
         document.getElementById("projecttitle").innerHTML = "Basedoff";
         document.getElementById("projecttitle").style.color = "#007AFF";
@@ -53,7 +53,7 @@ var intervalId = window.setInterval(function(){
         document.getElementById("tag1").innerHTML = "uiux design";
         document.getElementById("tag2").innerHTML = "3D";
         document.getElementById("tag3").innerHTML = "prototyping";
-        document.getElementById("griditemdescription1").href="./pages/basedoff.html";
+        document.getElementById("griditemdescription1").href="./basedoff.html";
     }
 
 

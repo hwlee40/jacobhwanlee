@@ -53,6 +53,12 @@
 .blue{
     color: $blue;
 }
+.yellow{
+    color: $yellow;
+}
+.red{
+    color: $red;
+}
 .grey{
     color: $grey;
 }
@@ -62,7 +68,22 @@
 .subtitle{
     @include poppins24B;
     color: $black1;
+    margin-bottom: 25px;
+}
+.subtitle2 {
+    font-family: Poppins;
+    font-size: 50px;
     margin-bottom: 20px;
+    @media (max-width: $breakpointdesktop) {
+        font-size: 40px;
+    }
+    @media (max-width: $breakpointtablet) {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    @media (max-width: $breakpointmobile) {
+        font-size: 24px;
+    }
 }
 .accenttitle{
     @include poppins40B;
@@ -149,6 +170,11 @@
         
     }
 }
+.fullgrid{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 
 //Intro Part
 .logocontainer{
@@ -205,6 +231,15 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
+    @media (max-width: $breakpointdesktop) {
+        font-size: 17px;
+    }
+    @media (max-width: $breakpointtablet) {
+        
+    }
+    @media (max-width: $breakpointmobile) {
+  
+    }
 }
 .titleimage{
     width: 100%;
@@ -224,6 +259,7 @@
         grid-column-end: 3;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
     }
     @media (max-width: $breakpointmobile) {
         grid-template-columns: 1fr;
@@ -260,6 +296,13 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
+.briefinner2{
+    margin-bottom: 40px;   
+    @media (max-width: $breakpointtablet) {
+        margin-bottom: 0px;
+    } 
+}
+
 
 //The Problem
 .prompt{
@@ -289,4 +332,14 @@
     @include poppins17R;
     color: $grey;
     line-height: 28px;
+}
+
+//Archive Accolades
+.accolades{
+    @include poppins24B;
+    color: $black1;
+    margin-bottom: 25px;
+    @media (max-width: $breakpointmobile) {
+        font-size: 20px;
+    } 
 }

@@ -1,3 +1,6 @@
+#herocontainer{
+    background: black;
+}
 .iframe-container,
 .iframe-container iframe {
   position: relative;
@@ -10,6 +13,7 @@
     position: sticky;
     position: -webkit-sticky; /* for safari noice */
     top: 0;
+    opacity: 0.55;
 }
 
 .herotext {

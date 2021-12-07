@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Favorit";
+  src: url("/FavoritPro-Light.b8060621.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: blue;
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */

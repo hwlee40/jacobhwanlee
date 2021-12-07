@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../fonts/FavoritPro-Light.otf":[["FavoritPro-Light.b8060621.otf","fonts/FavoritPro-Light.otf"],"fonts/FavoritPro-Light.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../fonts/MabryBlack.otf":[["MabryBlack.26b9fd67.otf","fonts/MabryBlack.otf"],"fonts/MabryBlack.otf"],"./../fonts/MabryBold.otf":[["MabryBold.fb051989.otf","fonts/MabryBold.otf"],"fonts/MabryBold.otf"],"./../fonts/MabryMedium.otf":[["MabryMedium.10f58fde.otf","fonts/MabryMedium.otf"],"fonts/MabryMedium.otf"],"./../fonts/MabryRegular.otf":[["MabryRegular.fd471ae8.otf","fonts/MabryRegular.otf"],"fonts/MabryRegular.otf"],"./../fonts/MabryLight.otf":[["MabryLight.8643205a.otf","fonts/MabryLight.otf"],"fonts/MabryLight.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54271" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54592" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

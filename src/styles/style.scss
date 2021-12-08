@@ -17,10 +17,12 @@ a{
 }
 a:hover {
     transform: translate(0, -5px);
+    color: #68BD45;
 }
 @media only screen and (max-width: 600px) {
     a:hover {
         transform: none;
+        color: black;
     }
 }
 

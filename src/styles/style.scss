@@ -29,8 +29,23 @@ a:hover {
 h1{
     font-family: "Mabry";
     font-weight: normal;
-    font-size: 5vh;
     line-height: 130%;
+    font-size: 70px;
+    @media only screen and (max-width: 1600px) {
+        font-size: 50px;
+    }
+    @media only screen and (max-width: 1200px) {
+        font-size: 40px;
+    }
+    @media only screen and (max-width: 900px) {
+        font-size: 30px;
+    }
+    @media only screen and (max-width: 600px) {
+        font-size: 24px;
+    }
+    
+    
+    
 }
 .green{
     color: #68BD45;

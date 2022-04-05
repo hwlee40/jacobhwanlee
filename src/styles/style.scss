@@ -30,19 +30,19 @@ h1{
     font-family: "Mabry";
     font-weight: normal;
     line-height: 130%;
-    font-size: 70px;
-    @media only screen and (max-width: 1600px) {
-        font-size: 50px;
-    }
-    @media only screen and (max-width: 1200px) {
-        font-size: 40px;
-    }
+    font-size: 36px;
+    // @media only screen and (max-width: 1600px) {
+    //     font-size: 50px;
+    // }
+    // @media only screen and (max-width: 1200px) {
+    //     font-size: 40px;
+    // }
     @media only screen and (max-width: 900px) {
-        font-size: 30px;
+        font-size: 20px;
     }
-    @media only screen and (max-width: 600px) {
-        font-size: 24px;
-    }
+    // @media only screen and (max-width: 600px) {
+    //     font-size: 24px;
+    // }
     
     
     

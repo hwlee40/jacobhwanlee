@@ -1,0 +1,67 @@
+//FOOTER -- WILL CHANGE TO ANOTHER PAGE LATER
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px 40px 25px 40px;
+    // background: yellow;
+}
+.footer-link-underline{
+    color: $shade2;
+    text-decoration: none;
+    border-bottom: 2px dotted $shade2;
+    padding-bottom: 2px;
+}
+.footer-link-underline:hover{
+    border-bottom: 2px dotted $green;
+    color: $green;
+}
+.footer-name{
+    grid-column: 1/4;
+    transition: 0.15s ease-in-out;
+    position: absolute;
+}
+.footer-credit{
+    grid-column: 1/4;
+    transition: 0.15s ease-in-out;
+    display: absolute;
+    transform: translateY(15px);
+    opacity: 0;
+}
+
+
+
+//PAGES NAVIGATION
+.backhome-outer{
+    margin: 100px 40px 40px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.backhome-inner{
+    border-bottom: 3px dotted $shade2;
+    text-decoration: none;
+}
+.backhome-inner:hover{
+    color: $green;
+}
+
+
+@media screen and (max-width: $mobile) {
+    .footer-name{
+        display: none;
+    }
+    .footer-credit{
+        display: none;
+    }
+    .footer-grid{
+        padding: 20px 20px 25px 20px;
+    }
+
+    .backhome-outer{
+        margin: 80px 20px 20px 20px;
+    }
+}
+@media screen and (max-width: $tablet) {
+
+}

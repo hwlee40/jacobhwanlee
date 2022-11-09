@@ -1,60 +1,15 @@
-//breakpoints
-@import 'fonts';
+//components
+@import 'components/breakpoints', 'components/colors', 'components/fonts';
+//index
+@import 'pages/home', 'pages/projects', 'components/footer.scss', 'components/header.scss';
 
 *  { 
     margin: 0; 
     padding: 0; 
 }
 body {
-    background: #F6F6F6;
-    margin: 20px 20px 40px 20px;
+    background: $background;
 }
 a{
-    color: black;
-    text-decoration: none;
-    transition: .2s;
-    display: inline-block;
-}
-a:hover {
-    transform: translate(0, -5px);
-    color: #68BD45;
-}
-@media only screen and (max-width: 600px) {
-    a:hover {
-        transform: none;
-        color: black;
-    }
-}
-
-h1{
-    font-family: "Mabry";
-    font-weight: normal;
-    line-height: 130%;
-    font-size: 36px;
-    // @media only screen and (max-width: 1600px) {
-    //     font-size: 50px;
-    // }
-    // @media only screen and (max-width: 1200px) {
-    //     font-size: 40px;
-    // }
-    @media only screen and (max-width: 900px) {
-        font-size: 20px;
-    }
-    // @media only screen and (max-width: 600px) {
-    //     font-size: 24px;
-    // }
-    
-    
-    
-}
-.green{
-    color: #68BD45;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-.grey{
-    color: #BBBBBB;
-}
-.notop{
-    margin-top: 0;
+    color: $black;
 }

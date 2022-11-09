@@ -1,0 +1,141 @@
+
+
+//DESCRIPTION
+.grid-landing-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 40px;
+    position: fixed;
+    z-index: 2;
+    transition: margin-top .5s ease, opacity .2s;
+    opacity: 0;
+}
+
+.about-description{
+    margin-top: 8px;
+    margin-bottom: 60px;
+}
+.about-link-underline{
+    text-decoration-color: $shade2;
+    text-decoration-style: dotted;
+}
+.about-link-underline:hover{
+    color: $green;
+    text-decoration-color: $green;
+}
+
+.description-previously{
+    margin-top: -22px;
+}
+
+//PROJECTS
+.grid-landing-projects{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 40px;
+    pointer-events: none;
+    z-index: 100;
+}
+.project-block{
+    background: $white;
+    border-radius: 5px;
+    text-decoration: none;
+    pointer-events: auto;
+    transition: .5s ease;
+    transition-delay: 300ms;
+    transition-property: margin-top, opacity;
+    margin-top: 40px;
+    opacity: 0;
+}
+
+
+.thumbnail-image-outer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.thumbnail-image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-block-title{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.project-block-tags{
+    color: $shade1;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+
+.translate-on-load{
+    margin-top: 0px;
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: $tablet) {
+    .grid-landing-description{
+        grid-template-columns: 1fr;
+    }
+    .grid-landing-projects{
+        grid-template-columns: 1fr;        
+    }
+    .description-previously{
+        margin-bottom: -15px;
+        margin-top: 0px;
+    }
+    .description-right{
+        margin-top: -50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: -10px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .grid-landing-description{
+        margin: 20px;
+        padding-top: 10px;
+    }
+    .description-previously{
+        margin-bottom: -20px;
+        margin-top: -30px;
+    }
+    .grid-landing-projects{
+        margin: 20px;
+    }
+    .description-right{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .project-block{
+        border-radius: 3px;
+    }
+    .thumbnail-image{
+        border-radius: 3px;
+    }
+}
+@media screen and (min-width: $monitor) {
+    body{
+        display: grid;
+        justify-content: center;
+    }
+    .grid-landing-description{
+        left: 50%;
+        margin-left: -1000px; // 0 - $monitor / 2
+        max-width: $monitor;
+        padding-top: 40px;  
+        
+    }
+    .grid-landing-projects{
+        max-width: $monitor;
+    }
+}

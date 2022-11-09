@@ -1,0 +1,95 @@
+//Mabry
+@font-face {
+  font-family: "Mabry";
+  src: url("../fonts/MabryBlack.otf") format("opentype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Mabry";
+  src: url("../fonts/MabryRegular.otf") format("opentype");
+  font-weight: normal;
+}
+
+
+h1{
+  font-family: Mabry;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  margin: 0;
+}
+h2{
+  font-family: Mabry;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0;
+}
+h3{
+  font-family: Mabry;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  margin: 0;
+}
+h4{
+  font-family: Mabry;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 26px;
+  margin: 0;
+}
+p{
+  font-family: Mabry;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 26px;
+  margin: 0;
+}
+tag{
+  font-family: Mabry;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 17px;
+  margin: 0;
+  color: $shade2;
+}
+
+@media screen and (max-width: $tablet) {
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+}
+
+@media screen and (max-width: $mobile) {
+  h1{
+    font-size: 27px;
+  }
+  h2{
+    font-size: 27px;
+  }
+  h3{
+    font-size: 17px;
+    line-height: 23px;
+  }
+  h4{
+    font-size: 17px;
+    line-height: 23px;
+  }
+  p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+  tag{
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

@@ -58,6 +58,12 @@
     grid-gap: 20px;
 }
 
+.project-tags-inner-special {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+}
+
+
 //CONTENT GRID
 .project-content-grid{
     display: grid;
@@ -211,6 +217,10 @@
     .image{
         border-radius: 3px;
     }
+    .project-tags-inner-special {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
 }
 
 @media screen and (min-width: $monitor) {
@@ -225,3 +235,4 @@
         max-width: $monitor;
     }
 }
+

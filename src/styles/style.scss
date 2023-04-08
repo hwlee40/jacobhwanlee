@@ -1,7 +1,7 @@
 //components
 @import 'components/breakpoints', 'components/colors', 'components/fonts';
-//index
-@import 'pages/home', 'pages/projects', 'components/footer.scss', 'components/header.scss';
+// //index
+// @import 'pages/home', 'pages/projects', 'components/footer.scss', 'components/header.scss';
 
 *  { 
     margin: 0; 
@@ -13,3 +13,25 @@ body {
 a{
     color: $black;
 }
+
+.temporary{
+    font-family: 'Mabry';
+    font-size: 30px;
+    margin: 30px;
+    line-height: 47px;
+}
+.blinking {
+    animation: blink-animation 1s steps(2, start) infinite;
+    -webkit-animation: blink-animation 1s steps(2, start) infinite;
+    color: red;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }

@@ -10,86 +10,65 @@
   font-weight: normal;
 }
 
-
+a{
+  text-decoration: none;
+}
+.resume-links{
+  transition: .2s;
+}
+.resume-links:hover{
+  color: $green;
+}
 h1{
   font-family: Mabry;
-  font-size: 40px;
+  font-size: 16px;
   font-weight: 900;
-  line-height: 40px;
-  margin: 0;
-}
-h2{
-  font-family: Mabry;
-  font-size: 40px;
-  font-weight: normal;
-  line-height: 40px;
+  line-height: 20px;
   margin: 0;
 }
 h3{
   font-family: Mabry;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: normal;
-  line-height: 32px;
-  margin: 0;
-}
-h4{
-  font-family: Mabry;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 26px;
+  line-height: 22px;
   margin: 0;
 }
 p{
   font-family: Mabry;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 26px;
+  line-height: 20px;
   margin: 0;
 }
 tag{
   font-family: Mabry;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 17px;
+  line-height: 20px;
   margin: 0;
+  color: $shade2;
+}
+.grey-out{
   color: $shade2;
 }
 
 @media screen and (max-width: $tablet) {
-  h1{
-    font-size: 30px;
-  }
-  h2{
-    font-size: 30px;
-  }
-  h3{
-    font-size: 20px;
-    line-height: 26px;
-  }
+
 
 }
 
 @media screen and (max-width: $mobile) {
-  h1{
-    font-size: 27px;
-  }
-  h2{
-    font-size: 27px;
-  }
-  h3{
-    font-size: 17px;
-    line-height: 21px;
-  }
-  h4{
-    font-size: 17px;
-    line-height: 23px;
-  }
-  p{
-    font-size: 17px;
-    line-height: 23px;
-  }
-  tag{
-    font-size: 14px;
-    line-height: 14px;
-  }
+h1{
+  font-size: 14px;
+  line-height: 17.5px;
+}
+h3{
+  font-size: 15px;
+  line-height: 17.5px;
+}
+p{
+  font-size: 14px;
+  line-height: 17.5px;
+}
+
 }

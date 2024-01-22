@@ -1,4 +1,4 @@
-# 🛠 Personal portfolio (currently under construction)
+# 🛠 Jacob's personal portfolio
 🔗 visit the site [here](https://www.jacobhwanlee.com/).
 
 Site designed & developed by Jacob Hwan Lee

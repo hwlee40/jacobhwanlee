@@ -36,81 +36,94 @@ if (windowwidth > 600) {
     
     //1a, 1b
     $('.1a').on("mouseenter", function() {
-        $('.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.1a').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     $('.1b').on("mouseenter", function() {
-        $('.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.1b').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     //2a, 2b
     $('.2a').on("mouseenter", function() {
-        $('.1a,.1b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.2a').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     $('.2b').on("mouseenter", function() {
-        $('.1a,.1b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.2b').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     //3a, 3b
     $('.3a').on("mouseenter", function() {
-        $('.1a,.1b,.2a,.2b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b,.2a,.2b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.3a').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     $('.3b').on("mouseenter", function() {
-        $('.1a,.1b, .2a,.2b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b, .2a,.2b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.3b').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     //4a, 4b
     $('.4a').on("mouseenter", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.4a').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     $('.4b').on("mouseenter", function() {
-        $('.1a,.1b, .2a,.2b,.3a,.3b,.5a,.5b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b, .2a,.2b,.3a,.3b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.4b').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     //5a, 5b
     $('.5a').on("mouseenter", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.5a').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     $('.5b').on("mouseenter", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.6a,.6b').css('opacity','.3');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.6a,.6b,.7a,.7b').css('opacity','.3');
     });
     $('.5b').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     //6a, 6b
     $('.6a').on("mouseenter", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b').css('opacity','.3');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.7a,.7b').css('opacity','.3');
     });
     $('.6a').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
     $('.6b').on("mouseenter", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b').css('opacity','.3');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.7a,.7b').css('opacity','.3');
     });
     $('.6b').on("mouseleave", function() {
-        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','1');
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
+    });
+    //7a, 7b
+    $('.7a').on("mouseenter", function() {
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+    });
+    $('.7a').on("mouseleave", function() {
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
+    });
+    $('.7b').on("mouseenter", function() {
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b').css('opacity','.3');
+    });
+    $('.7b').on("mouseleave", function() {
+        $('.1a,.1b,.2a,.2b,.3a,.3b,.4a,.4b,.5a,.5b,.6a,.6b,.7a,.7b').css('opacity','1');
     });
 
     //PROJECT HOVER ARROWS

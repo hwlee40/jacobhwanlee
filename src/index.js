@@ -8,14 +8,15 @@ let windowwidth = $(document).width();
 
 if (windowwidth > 600) {
     //BACK TO PROJECTS ARROW
-    $( ".back-button" ).on( "mouseenter", function() {
-        $('.back-arrow').css('opacity', '1');
-        $(this).css('transform', 'translateX(23px)');
-    } );
-    $( ".back-button" ).on( "mouseleave", function() {
-        $('.back-arrow').css('opacity', '0');
-        $(this).css('transform', 'translateX(0px)');
-    } );
+    // $( ".back-button" ).on( "mouseenter", function() {
+    //     $('.back-arrow').css('opacity', '1');
+    //     $(this).css('padding', '10px, 10px, 10px, 40px');
+    //     $(this).css('transform', 'translateX(23px)');
+    // } );
+    // $( ".back-button" ).on( "mouseleave", function() {
+    //     $('.back-arrow').css('opacity', '0');
+    //     $(this).css('transform', 'translateX(0px)');
+    // } );
         //Fade
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
@@ -138,14 +139,14 @@ if (windowwidth > 600) {
     } );
 } else {
     //BACK TO PROJECTS ARROW
-    $( ".back-button" ).on( "mouseenter", function() {
-        $('.back-arrow').css('opacity', '0');
-        $(this).css('transform', 'translateX(0px)');
-    } );
-    $( ".back-button" ).on( "mouseleave", function() {
-        $('.back-arrow').css('opacity', '0');
-        $(this).css('transform', 'translateX(0px)');
-    } );
+    // $( ".back-button" ).on( "mouseenter", function() {
+    //     $('.back-arrow').css('opacity', '0');
+    //     $(this).css('transform', 'translateX(0px)');
+    // } );
+    // $( ".back-button" ).on( "mouseleave", function() {
+    //     $('.back-arrow').css('opacity', '0');
+    //     $(this).css('transform', 'translateX(0px)');
+    // } );
         //Fade
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
@@ -259,14 +260,14 @@ $( window ).on( "resize", function() {
     windowwidth = $(document).width();
     if (windowwidth > 600) {
         //BACK TO PROJECTS ARROW
-    $( ".back-button" ).on( "mouseenter", function() {
-        $('.back-arrow').css('opacity', '1');
-        $(this).css('transform', 'translateX(23px)');
-    } );
-    $( ".back-button" ).on( "mouseleave", function() {
-        $('.back-arrow').css('opacity', '0');
-        $(this).css('transform', 'translateX(0px)');
-    } );
+    // $( ".back-button" ).on( "mouseenter", function() {
+    //     $('.back-arrow').css('opacity', '1');
+    //     $(this).css('transform', 'translateX(23px)');
+    // } );
+    // $( ".back-button" ).on( "mouseleave", function() {
+    //     $('.back-arrow').css('opacity', '0');
+    //     $(this).css('transform', 'translateX(0px)');
+    // } );
         //Fade
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
@@ -375,14 +376,14 @@ $( window ).on( "resize", function() {
     } );
     } else {
         //BACK TO PROJECTS ARROW
-    $( ".back-button" ).on( "mouseenter", function() {
-        $('.back-arrow').css('opacity', '0');
-        $(this).css('transform', 'translateX(0px)');
-    } );
-    $( ".back-button" ).on( "mouseleave", function() {
-        $('.back-arrow').css('opacity', '0');
-        $(this).css('transform', 'translateX(0px)');
-    } );
+    // $( ".back-button" ).on( "mouseenter", function() {
+    //     $('.back-arrow').css('opacity', '0');
+    //     $(this).css('transform', 'translateX(0px)');
+    // } );
+    // $( ".back-button" ).on( "mouseleave", function() {
+    //     $('.back-arrow').css('opacity', '0');
+    //     $(this).css('transform', 'translateX(0px)');
+    // } );
         //Fade
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
